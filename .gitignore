@@ -1,0 +1,18 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook auto-saves
+*.ipynb_checkpoints
+
+# Ignore environment variable files (if you use them)
+.env
+
+# Ignore dataset files
+data/
+
+# Ignore all CSVs (including in data/)
+*.csv
